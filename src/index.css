@@ -1,0 +1,160 @@
+
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+ /* ***********************NAVBAR STYLING****************************  */
+/* styling for navbar in Navbar.js */
+.company-name{
+  margin-left: 40px;
+}
+
+
+
+ /* *********************** END OF NAVBAR STYLING****************************  */
+
+
+
+
+
+
+  /* ***********************SIDEBAR STYLING****************************  */
+/* styling for sidebar in Sidebar.js */
+.side-bar{
+  background-color: rgb(3, 1, 39);
+  height: 100vh;
+  width: 200px;
+  margin: 0;
+  float: left; 
+  overflow: auto;
+    
+}
+
+
+ /* *********************** END OF SIDEBAR STYLING****************************  */   
+ 
+
+
+
+  /* ***********************SIGNIN STYLING****************************  */
+/* styling for sidebar in Sidebar.js */
+.left-area, .right-area{
+  height: 100vh;
+}
+.right-area{
+  background-color: rgb(245, 245, 245);
+}
+
+.left-signin-pane{
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-btn{
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  font-size: 16pt;
+  border: none;
+  transition: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.login-btn:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+ /* *********************** END OF SIGNIN STYLING****************************  */   
+ 
+ 
+
+
+
+
+ 
+
+
+
+  /* ***********************PAGECONTENT STYLING****************************  */
+/* styling for pagecontent in PageContent.js */
+.page-content{
+  background-color: rgb(202, 202, 202);
+  margin-left: 200px;
+  width: inherit;
+  height: 100vh;
+  overflow: auto;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+        /* ******************USER LIST STYLING*************************** */
+        /* styling for UserList.js */
+        .user-list{
+          margin-left: 40px;
+        }
+
+        /* ******************END OF USER LIST STYLING*************************** */
+
+
+
+        /* *****************ADD USER STYLING*************************** */
+        /* styling for UserList.js */
+        .create-user{
+          padding: 50px;
+          box-sizing: border-box;
+          background-color: white;
+          margin-top: 20px;
+          border-radius: 5px;
+          margin-bottom: 80px;
+        }
+
+        /* ******************END OF ADD USER STYLING*************************** */
+
+
+        /* *****************ADD HANDOVER ITEM STYLING*************************** */
+        /* styling for CreateItem.js */
+        .create-item{
+          padding: 50px;
+          box-sizing: border-box;
+          background-color: white;
+          margin-top: 20px;
+          border-radius: 5px;
+          margin-bottom: 80px;
+        }
+
+        /* ******************END OF ADD HANDOVER ITEM STYLING*************************** */
+
+ /* *********************** END OF PAGE CONTENT STYLING****************************  */       
+
+ .item-list{
+   margin-bottom: 60px;
+ }
+ .item-text{
+   font-weight: bold;
+   color: rgb(92, 92, 92)
+ }
+ .bold-text{
+   font-weight: 600;
+   font-size: 14pt;
+ }
